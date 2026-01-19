@@ -49,4 +49,4 @@ jobs:
             fi
 
             echo "Deployment complete!"
-            echo "Site: https://gatorqh.com"
+            echo "Site: https://gqhacks.com"
