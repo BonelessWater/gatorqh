@@ -34,11 +34,11 @@ export function FAQSection() {
   const faqs = [
     {
       question: "Who can participate?",
-      answer: "Quantathon is open to all university students, recent graduates, and early-career professionals interested in quantitative finance. No prior experience in finance is required, but basic programming skills are recommended."
+      answer: "Gator Quant Hackathon is open to all university students, including both undergraduate and graduate students. No prior experience in finance is required, but basic programming skills are recommended."
     },
     {
       question: "How much does it cost?",
-      answer: "Quantathon is completely free to attend! We provide meals, snacks, swag, and access to all workshops and mentorship sessions at no cost to participants."
+      answer: "Gator Quant Hackathon is completely free to attend! We provide meals, snacks, swag, and access to all workshops and mentorship sessions at no cost to participants."
     },
     {
       question: "Do I need a team?",
@@ -54,7 +54,7 @@ export function FAQSection() {
     },
     {
       question: "Will there be travel reimbursement?",
-      answer: "Yes! We offer travel reimbursements up to $200 for participants traveling from outside the tri-state area. Details will be provided upon acceptance."
+      answer: "Unfortunately, we are not able to offer travel reimbursements at this time. However, the event is completely free to attend with meals and accommodations provided."
     },
     {
       question: "What technologies can we use?",
@@ -142,10 +142,10 @@ export function FAQSection() {
             Still have questions?
           </p>
           <a 
-            href="mailto:info@quantathon2026.com" 
+            href="mailto:info@gatorquanthackathon.com" 
             className="text-cyan-400 hover:text-cyan-300 font-mono transition-all hover:scale-110 inline-block relative z-10"
           >
-            info@quantathon2026.com
+            info@gatorquanthackathon.com
           </a>
         </div>
       </div>

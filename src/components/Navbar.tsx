@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import logo from "../assets/logo.png";
 
 export function Navbar({ onNavigate }: { onNavigate?: (page: "home" | "register") => void }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +34,7 @@ export function Navbar({ onNavigate }: { onNavigate?: (page: "home" | "register"
           {/* Logo */}
           <button onClick={handleLogoClick} className="text-white text-xl font-bold font-mono hover:text-cyan-400 transition-colors flex items-center gap-2">
             <div className="w-2 h-2 bg-cyan-400 animate-pulse" />
-            QUANTATHON
+            GATOR QUANT
           </button>
           
           {/* Desktop Navigation */}
@@ -54,6 +55,17 @@ export function Navbar({ onNavigate }: { onNavigate?: (page: "home" | "register"
             >
               Register
             </Button>
+            {/* GQH Logo as home button */}
+            <button 
+              onClick={handleLogoClick} 
+              className="hover:opacity-80 transition-all hover:scale-110 transform relative group"
+            >
+              <img 
+                src={logo} 
+                alt="GQH Logo" 
+                className="h-14 w-auto drop-shadow-[0_0_10px_rgba(255,255,255,0.5)] group-hover:drop-shadow-[0_0_20px_rgba(0,188,212,0.8)]" 
+              />
+            </button>
           </div>
           
           {/* Mobile Menu Button */}

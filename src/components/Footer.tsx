@@ -16,7 +16,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-6 relative z-10">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl mb-4 font-bold font-mono">QUANTATHON</h3>
+            <h3 className="text-2xl mb-4 font-bold font-mono">GATOR QUANT</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               The premier quantitative finance hackathon for students and professionals.
             </p>
@@ -76,7 +76,7 @@ export function Footer() {
         
         <div className="pt-8 border-t border-cyan-400/20 text-center">
           <p className="text-sm text-gray-400 font-mono">
-            &copy; 2026 Quantathon. All rights reserved.
+            &copy; 2026 Gator Quant Hackathon. All rights reserved.
           </p>
         </div>
       </div>

@@ -124,9 +124,9 @@ export function HeroSection({ onNavigate }: { onNavigate?: (page: "home" | "regi
         </div>
         
         <h1 className="text-6xl md:text-8xl text-white mb-6 tracking-tight font-bold">
-          QUANTATHON
+          GATOR QUANT
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-300 animate-pulse">
-            2026
+            HACKATHON
           </span>
         </h1>
         
@@ -172,10 +172,10 @@ export function HeroSection({ onNavigate }: { onNavigate?: (page: "home" | "regi
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
           {[
-            { number: "500+", label: "Participants" },
-            { number: "$50K", label: "In Prizes" },
-            { number: "48", label: "Hours" },
-            { number: "20+", label: "Sponsors" }
+            { number: "TBD", label: "Participants" },
+            { number: "TBD", label: "In Prizes" },
+            { number: "TBD", label: "Hours" },
+            { number: "TBD", label: "Sponsors" }
           ].map((stat, index) => (
             <div 
               key={index} 
